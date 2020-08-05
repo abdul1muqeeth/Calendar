@@ -1,0 +1,9 @@
+import calendar
+while True:
+    year=int(input("Enter the Year:\t"))
+    month=int(input("Enter the month:"))
+    print(calendar.month(year,month))
+    b=input("you want to try other month and year say[yes/no]: ")
+    if b.lower()=='no':
+        break
+print("Thank You see you soon")
